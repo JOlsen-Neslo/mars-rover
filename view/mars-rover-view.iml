@@ -12,6 +12,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="mars-rover-controller" />
     <orderEntry type="module" module-name="mars-rover-model" />
+    <orderEntry type="library" name="Maven: org.jacoco:org.jacoco.agent:runtime:0.8.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.0" level="project" />
   </component>
 </module>
