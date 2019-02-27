@@ -28,18 +28,28 @@ to test each component in isolation. Swapping components in and out will not nee
 Technologies:
 
 - Checkstyle
+- SpotBugs
 
 Checkstyle is a Java linting library that is used to ensure certain coding standards are met. A few examples of 
 rules that are checked are - line length does not exceed 100 characters; methods do not exceed more than 30 lines; etc..
 
 To generate the checkstyle report, execute the following command:
 
-    $ mvn checkstyle:checkstyle
+    $ mvn compile site
 
 The full set of rules can be seen in the **_checkstyle.xml_** file. 
 The result of the report can be opened in your browser from the following location:
 
 **_{module_to_view}/target/site/checkstyle.html_**
+
+SpotBugs is a static analysis tool used to find flawed logic and potential bugs throughout the application.
+To generate the checkstyle report, execute the following command:
+
+    $ mvn compile site
+    
+The result of the report can be opened in your browser from the following location:
+
+**_{module_to_view}/target/site/spotbugs.html_**
 
 ## Testing
 Technologies:

@@ -36,5 +36,6 @@ hs_err_pid*
 **/target/*.jar.original
 **/target/site/
 **/target/checkstyle-*
+**/target/spotbugs*
 
 jacoco.exec
