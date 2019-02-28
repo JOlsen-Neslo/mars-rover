@@ -68,6 +68,10 @@ public class RoverService {
         }
     }
 
+    public String locateRover() {
+        return rover.toString();
+    }
+
     private void validatePosition() throws ServiceException {
         if (!rover.validate(zone)) {
             throw new ServiceException("The rovers current position is currently out of the zone bounds. "

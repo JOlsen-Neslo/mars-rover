@@ -57,4 +57,9 @@ public class Rover {
 
         setDirection(Direction.findDirection(degrees));
     }
+
+    @Override
+    public String toString() {
+        return position.toString() + " " + direction.toString();
+    }
 }

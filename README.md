@@ -16,6 +16,16 @@ contains an already built JAR file that is runnable.
 To run the application you just need to to perform the following command:
 
     $ java -jar view/target/mars-rover-view-1.0-jar-with-dependencies.jar
+    
+When inputting the following data: 
+
+    8 10
+    1 2 E
+    MMLMRMMRRMML
+    
+The result should be:
+
+    The rover is currently located at: [3, 3] S
 
 ## Design Decisions
 I followed the MVC design pattern to ensure that all necessary logic is encapsulated into 
@@ -23,6 +33,9 @@ its own component, ensuring that each component is responsible for its own behav
 
 This gives me the ability to use each component independently and also gives me the flexibility
 to test each component in isolation. Swapping components in and out will not need much refactoring.
+
+I attempted to follow OOP principles as much as possible with the design of this application by ensuring
+each object is responsible for its own behaviour and by abstracting the code as much as possible.
 
 ## Static Code Analysis
 Technologies:

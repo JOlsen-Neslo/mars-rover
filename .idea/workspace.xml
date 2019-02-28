@@ -3,15 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="70aeb268-00a5-4b45-8af4-95331c780c37" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/src/main/java/za/co/neslotech/rover/RoverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/src/main/java/za/co/neslotech/rover/RoverService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/src/test/java/za/co/neslotech/rover/RoverServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/src/test/java/za/co/neslotech/rover/RoverServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/Coordinate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/Rover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/constants/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/constants/Direction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/RoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/RoverTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/constants/DirectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/constants/DirectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/src/main/java/za/co/neslotech/rover/RoverStartup.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/main/java/za/co/neslotech/rover/RoverStartup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/src/test/java/za/co/neslotech/rover/RoverStartupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/test/java/za/co/neslotech/rover/RoverStartupTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/view/target/" />
@@ -60,35 +59,35 @@
     <session id="-290620250">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.33" value="1" />
-          <entry key="project.open.time.34" value="2" />
+          <entry key="project.open.time.34" value="3" />
           <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.38" value="3" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.54" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="41" />
-          <entry key="md" value="1" />
+          <entry key="java" value="44" />
+          <entry key="md" value="2" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="41" />
-          <entry key="Markdown" value="1" />
+          <entry key="JAVA" value="44" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="11" />
         </counts>
@@ -96,15 +95,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="45" />
-          <entry key="java" value="6517" />
-          <entry key="md" value="3193" />
+          <entry key="java" value="6855" />
+          <entry key="md" value="3419" />
           <entry key="xml" value="317" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6517" />
-          <entry key="Markdown" value="3193" />
+          <entry key="JAVA" value="6855" />
+          <entry key="Markdown" value="3419" />
           <entry key="PLAIN_TEXT" value="45" />
           <entry key="XML" value="317" />
         </counts>
@@ -116,10 +115,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="106" column="27" lean-forward="true" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+            <state relative-caret-position="239">
+              <caret line="119" column="51" lean-forward="true" selection-start-line="119" selection-start-column="51" selection-end-line="119" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3007#3008#0" expanded="true" />
+                <element signature="e#3046#3047#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,22 +129,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            <state relative-caret-position="515">
+              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#595#596#0" expanded="true" />
                 <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#1557#1558#0" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/exceptions/ModelException.java">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/constants/Direction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="549">
+              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#1649#1650#0" expanded="true" />
+                <element signature="e#1673#1674#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/src/test/java/za/co/neslotech/rover/RoverServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+            <state relative-caret-position="1">
+              <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -161,7 +171,7 @@
         <entry file="file://$PROJECT_DIR$/view/src/test/java/za/co/neslotech/rover/RoverStartupTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+              <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,8 +182,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/src/main/java/za/co/neslotech/rover/RoverStartup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,25 +192,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/za/co/neslotech/rover/RoverService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="308">
+                <caret line="27" column="97" selection-start-line="27" selection-start-column="97" selection-end-line="27" selection-end-column="97" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/constants/Direction.java">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/za/co/neslotech/rover/RoverService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="136">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#2573#2574#0" expanded="true" />
+                <element signature="e#2612#2613#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,10 +220,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/constants/DirectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+            <state relative-caret-position="358">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1605#1606#0" expanded="true" />
+                <element signature="e#1655#1656#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -263,7 +276,6 @@
         <option value="$PROJECT_DIR$/controller/src/main/java/za/co/neslotech/rover/exceptions/ServiceException.java" />
         <option value="$PROJECT_DIR$/model/pom.xml" />
         <option value="$PROJECT_DIR$/controller/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/controller/src/test/java/za/co/neslotech/rover/exceptions/ServiceExceptionTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -271,18 +283,19 @@
         <option value="$PROJECT_DIR$/checkstyle.xml" />
         <option value="$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/CoordinateTest.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/ZoneTest.java" />
-        <option value="$PROJECT_DIR$/view/src/main/java/za/co/neslotech/rover/RoverStartup.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/Coordinate.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/constants/Direction.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/ModelException.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/Zone.java" />
-        <option value="$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/constants/DirectionTest.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/exceptions/ModelException.java" />
-        <option value="$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/RoverTest.java" />
-        <option value="$PROJECT_DIR$/controller/src/test/java/za/co/neslotech/rover/RoverServiceTest.java" />
         <option value="$PROJECT_DIR$/view/src/test/java/za/co/neslotech/rover/RoverStartupTest.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/Rover.java" />
+        <option value="$PROJECT_DIR$/view/src/main/java/za/co/neslotech/rover/RoverStartup.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/za/co/neslotech/rover/RoverService.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/Rover.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/constants/Direction.java" />
+        <option value="$PROJECT_DIR$/controller/src/test/java/za/co/neslotech/rover/RoverServiceTest.java" />
+        <option value="$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/constants/DirectionTest.java" />
+        <option value="$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/RoverTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -313,8 +326,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,62 +333,29 @@
               <item name="mars-rover" type="b2602c69:ProjectViewProjectNode" />
               <item name="mars-rover" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mars-rover" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mars-rover" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mars-rover" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mars-rover" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mars-rover" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mars-rover" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mars-rover" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mars-rover" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mars-rover" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mars-rover" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rover" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551345322457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551346634935" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\projects_git\mars-rover\model\src\main\java" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projects_git\mars-rover" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects_git\mars-rover\model\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -392,11 +370,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RoverStartupTest">
-    <configuration name="All in mars-rover-view" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RoverServiceTest.testLocateRover">
+    <configuration name="RoverStartup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="za.co.neslotech.rover.RoverStartup" />
       <module name="mars-rover-view" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.neslotech.rover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoverServiceTest.testLocateRover" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mars-rover-controller" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.neslotech.rover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.co.neslotech.rover" />
+      <option name="MAIN_CLASS_NAME" value="za.co.neslotech.rover.RoverServiceTest" />
+      <option name="METHOD_NAME" value="testLocateRover" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -411,22 +410,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="za.co.neslotech.rover" />
       <option name="MAIN_CLASS_NAME" value="za.co.neslotech.rover.RoverStartupTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RoverTest.testMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mars-rover-model" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="za.co.neslotech.rover.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="za.co.neslotech.rover" />
-      <option name="MAIN_CLASS_NAME" value="za.co.neslotech.rover.RoverTest" />
-      <option name="METHOD_NAME" value="testMove" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -464,19 +447,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in mars-rover-view" />
-      <item itemvalue="JUnit.RoverTest.testMove" />
       <item itemvalue="JUnit.RoverTest.testMoveException" />
       <item itemvalue="JUnit.RoverTest.testRotate" />
       <item itemvalue="JUnit.RoverStartupTest" />
+      <item itemvalue="Application.RoverStartup" />
+      <item itemvalue="JUnit.RoverServiceTest.testLocateRover" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoverServiceTest.testLocateRover" />
+        <item itemvalue="Application.RoverStartup" />
         <item itemvalue="JUnit.RoverStartupTest" />
         <item itemvalue="JUnit.RoverTest.testRotate" />
         <item itemvalue="JUnit.RoverTest.testMoveException" />
-        <item itemvalue="JUnit.RoverTest.testMove" />
-        <item itemvalue="JUnit.All in mars-rover-view" />
       </list>
     </recent_temporary>
   </component>
@@ -506,17 +489,12 @@
       <workItem from="1551338065105" duration="1569000" />
       <workItem from="1551339966461" duration="1544000" />
       <workItem from="1551341945858" duration="1679000" />
-      <workItem from="1551343840366" duration="1476000" />
+      <workItem from="1551343840366" duration="1754000" />
+      <workItem from="1551345656549" duration="754000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RoverTest_testMoveException - 2019.02.28 at 10h 41m 11s.xml">
-      <configuration name="RoverTest.testMoveException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoverTest_testMoveException - 2019.02.28 at 10h 41m 23s.xml">
-      <configuration name="RoverTest.testMoveException" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RoverTest_testMoveException - 2019.02.28 at 10h 41m 56s.xml">
       <configuration name="RoverTest.testMoveException" configurationId="JUnit" />
     </history-entry>
@@ -541,15 +519,21 @@
     <history-entry file="RoverStartupTest - 2019.02.28 at 11h 07m 22s.xml">
       <configuration name="RoverStartupTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RoverStartupTest - 2019.02.28 at 11h 22m 49s.xml">
+      <configuration name="RoverStartupTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoverServiceTest_testLocateRover - 2019.02.28 at 11h 24m 46s.xml">
+      <configuration name="RoverServiceTest.testLocateRover" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25682000" />
+    <option name="totallyTimeSpent" value="26714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17986578" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18255034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -560,7 +544,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -585,7 +569,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18255034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -596,18 +580,18 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32991204" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32991204" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -685,16 +669,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/test/java/za/co/neslotech/rover/exceptions/ServiceExceptionTest.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="952">
-            <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.9/junit-4.9.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -730,17 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.9/junit-4.9.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -759,10 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,9 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,11 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,23 +746,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/constants/Direction.java">
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/exceptions/ModelException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/constants/DirectionTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+        <state relative-caret-position="3553">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -826,69 +774,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/RoverTest.java">
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/constants/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="106" column="27" lean-forward="true" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+        <state relative-caret-position="549">
+          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/exceptions/ModelException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/src/main/java/za/co/neslotech/rover/RoverStartup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/test/java/za/co/neslotech/rover/RoverServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/src/test/java/za/co/neslotech/rover/RoverStartupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/Rover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/java/za/co/neslotech/rover/RoverService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        <state relative-caret-position="136">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2573#2574#0" expanded="true" />
+            <element signature="e#2612#2613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/za/co/neslotech/rover/Rover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/constants/DirectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1605#1606#0" expanded="true" />
+            <element signature="e#1655#1656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/test/java/za/co/neslotech/rover/RoverServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/test/java/za/co/neslotech/rover/RoverStartupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/test/java/za/co/neslotech/rover/RoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="119" column="51" lean-forward="true" selection-start-line="119" selection-start-column="51" selection-end-line="119" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3007#3008#0" expanded="true" />
+            <element signature="e#3046#3047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/main/java/za/co/neslotech/rover/RoverStartup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="308">
+            <caret line="27" column="97" selection-start-line="27" selection-start-column="97" selection-end-line="27" selection-end-column="97" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

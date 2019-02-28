@@ -14,7 +14,14 @@ public class RoverStartup {
 
         retrieveCoordinate();
         placeRover();
+        displayRoverLocation();
         readCommands();
+        displayRoverLocation();
+    }
+
+    private static void displayRoverLocation() {
+        String roverLocation = roverService.locateRover();
+        System.out.println("The rover is currently located at: " + roverLocation);
     }
 
     private static void retrieveCoordinate() {

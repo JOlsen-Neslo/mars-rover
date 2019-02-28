@@ -115,4 +115,9 @@ public class RoverTest {
         assertFalse(rover.validate(zone));
     }
 
+    @Test
+    public void testToString() {
+        assertEquals("[0, 0] E", rover.toString());
+    }
+
 }

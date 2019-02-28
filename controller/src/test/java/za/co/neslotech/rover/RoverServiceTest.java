@@ -93,4 +93,13 @@ public class RoverServiceTest {
         roverService.processCommands("MR LM");
     }
 
+    @Test
+    public void testLocateRover() throws ServiceException {
+        roverService.createZone("8 8");
+        roverService.createRover("2 2 E");
+        roverService.processCommands("MRLM");
+
+        assertEquals("[4, 2] E", roverService.locateRover());
+    }
+
 }

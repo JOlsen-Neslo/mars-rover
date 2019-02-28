@@ -55,4 +55,8 @@ public enum Direction {
                 + ". Possible values: [-90, 0, 90, 180, 270, 360]");
     }
 
+    @Override
+    public String toString() {
+        return symbol;
+    }
 }

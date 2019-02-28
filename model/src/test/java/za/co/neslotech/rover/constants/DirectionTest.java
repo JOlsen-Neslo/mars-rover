@@ -55,4 +55,9 @@ public class DirectionTest {
         Direction.findDirection(500);
     }
 
+    @Test
+    public void testToString() {
+        assertEquals("E", Direction.EAST.toString());
+    }
+
 }
