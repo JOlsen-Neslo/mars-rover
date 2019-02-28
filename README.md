@@ -83,5 +83,5 @@ To view the unit test coverage report, run the following command:
  
 Then you can view of any module in your browser:
 
-**_{module_to_view}/target/site/index.html_**
+**_{module_to_view}/target/site/jacoco/jacoco.html_**
 
