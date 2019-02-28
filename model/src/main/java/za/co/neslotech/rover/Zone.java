@@ -2,22 +2,21 @@ package za.co.neslotech.rover;
 
 public class Zone {
 
-    private String length;
-    private String breadth;
+    private Coordinate coordinate;
 
-    public String getLength() {
-        return length;
+    public Coordinate getCoordinate() {
+        return coordinate;
     }
 
-    public void setLength(String length) {
-        this.length = length;
+    public void setCoordinate(Coordinate coordinate) {
+        this.coordinate = coordinate;
     }
 
-    public String getBreadth() {
-        return breadth;
-    }
+    public boolean isWithinBounds(Coordinate position) {
+        if (position.getX() > coordinate.getX()) {
+            return false;
+        }
 
-    public void setBreadth(String breadth) {
-        this.breadth = breadth;
+        return position.getY() <= coordinate.getY();
     }
 }
