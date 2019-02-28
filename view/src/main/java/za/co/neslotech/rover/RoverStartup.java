@@ -14,6 +14,7 @@ public class RoverStartup {
 
         retrieveCoordinate();
         placeRover();
+        readCommands();
     }
 
     private static void retrieveCoordinate() {
@@ -25,7 +26,7 @@ public class RoverStartup {
         }
 
         try {
-            roverService.createZone(coordinate);
+            roverService.createZone(coordinate.trim());
         } catch (ServiceException | IllegalArgumentException error) {
             System.err.println(error.getMessage());
             System.exit(1);
@@ -42,7 +43,23 @@ public class RoverStartup {
         }
 
         try {
-            roverService.createRover(placement);
+            roverService.createRover(placement.trim());
+        } catch (ServiceException | IllegalArgumentException error) {
+            System.err.println(error.getMessage());
+            System.exit(1);
+        }
+    }
+
+    private static void readCommands() {
+        System.out.println("Please enter the list of commands for the rover: (e.g MLMRM)");
+        String commands = scanner.nextLine();
+        if (commands == null || commands.trim().isEmpty()) {
+            System.err.println("The value supplied is invalid. Please use the following format: e.g. MLMRM");
+            System.exit(1);
+        }
+
+        try {
+            roverService.processCommands(commands.trim());
         } catch (ServiceException | IllegalArgumentException error) {
             System.err.println(error.getMessage());
             System.exit(1);

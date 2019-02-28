@@ -25,6 +25,11 @@ public class DirectionTest {
     }
 
     @Test
+    public void testGetOptions() {
+        assertEquals(2, direction.getOptions().size());
+    }
+
+    @Test
     public void testFindDirectionSymbol() {
         assertEquals(Direction.EAST, Direction.findDirection("E"));
         assertEquals(Direction.WEST, Direction.findDirection("w"));
@@ -39,6 +44,10 @@ public class DirectionTest {
     public void testFindDirectionDegrees() {
         assertEquals(Direction.EAST, Direction.findDirection(90));
         assertEquals(Direction.WEST, Direction.findDirection(270));
+        assertEquals(Direction.WEST, Direction.findDirection(-90));
+        assertEquals(Direction.NORTH, Direction.findDirection(0));
+        assertEquals(Direction.NORTH, Direction.findDirection(360));
+        assertEquals(Direction.SOUTH, Direction.findDirection(180));
     }
 
     @Test(expected = IllegalArgumentException.class)

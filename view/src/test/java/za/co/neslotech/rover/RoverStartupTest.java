@@ -14,7 +14,7 @@ public class RoverStartupTest {
 
     @Test
     public void testRetrieveCoordinate() {
-        String input = "10 12\n10 9 E";
+        String input = "10 12\n1 1 E\nMRLLM";
         InputStream in = new ByteArrayInputStream(input.getBytes());
         System.setIn(in);
 
@@ -48,7 +48,7 @@ public class RoverStartupTest {
 
     @Test
     public void testPlaceRover() {
-        String input = "10 12\n10 9 E";
+        String input = "10 12\n1 1 E\nMRLLM";
         InputStream in = new ByteArrayInputStream(input.getBytes());
         System.setIn(in);
 
@@ -68,6 +68,35 @@ public class RoverStartupTest {
     @Test
     public void testPlaceRoverIncorrectInput() {
         String input = "12 12\n12 12";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        System.setIn(in);
+
+        exit.expectSystemExitWithStatus(1);
+        RoverStartup.main(null);
+    }
+
+    @Test
+    public void testReadCommands() {
+        String input = "10 12\n1 1 E\nMRLLM";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        System.setIn(in);
+
+        RoverStartup.main(null);
+    }
+
+    @Test
+    public void testReadCommandEmpty() {
+        String input = "12 1\n10 9 E\n\n";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        System.setIn(in);
+
+        exit.expectSystemExitWithStatus(1);
+        RoverStartup.main(null);
+    }
+
+    @Test
+    public void testReadCommandIncorrectInput() {
+        String input = "12 12\n12 12 E\nMSN";
         InputStream in = new ByteArrayInputStream(input.getBytes());
         System.setIn(in);
 

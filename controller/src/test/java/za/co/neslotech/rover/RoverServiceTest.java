@@ -4,6 +4,8 @@ import org.junit.Before;
 import org.junit.Test;
 import za.co.neslotech.rover.exceptions.ServiceException;
 
+import javax.xml.ws.Service;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
@@ -70,6 +72,25 @@ public class RoverServiceTest {
     @Test(expected = IllegalArgumentException.class)
     public void testCreateRoverIllegalArgumentException() throws ServiceException {
         roverService.createRover("8 8 f");
+    }
+
+    @Test
+    public void testProcessCommands() {
+        try {
+            roverService.createZone("8 8");
+            roverService.createRover("2 2 E");
+            roverService.processCommands("MRLM");
+            roverService.processCommands("mrlm");
+        } catch (ServiceException | IllegalArgumentException e) {
+            fail("The method call was not meant to throw an exception: " + e.getMessage());
+        }
+    }
+
+    @Test(expected = ServiceException.class)
+    public void testProcessCommandsException() throws ServiceException {
+        roverService.createZone("8 8");
+        roverService.createRover("2 2 E");
+        roverService.processCommands("MR LM");
     }
 
 }

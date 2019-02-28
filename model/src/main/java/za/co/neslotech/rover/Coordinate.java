@@ -21,6 +21,22 @@ public class Coordinate {
         this.y = y;
     }
 
+    public void increaseX() {
+        x++;
+    }
+
+    public void increaseY() {
+        y++;
+    }
+
+    public void decreaseX() {
+        x--;
+    }
+
+    public void decreaseY() {
+        y--;
+    }
+
     @Override
     public String toString() {
         return "[" + x + ", " + y + "]";

@@ -1,6 +1,7 @@
 package za.co.neslotech.rover;
 
 import za.co.neslotech.rover.constants.Direction;
+import za.co.neslotech.rover.exceptions.ModelException;
 import za.co.neslotech.rover.exceptions.ServiceException;
 
 public class RoverService {
@@ -41,13 +42,38 @@ public class RoverService {
         validatePosition();
     }
 
+    public void processCommands(String commands) throws ServiceException {
+        commands = commands.toUpperCase();
+        for (int x = 0; x < commands.length(); x++) {
+            char command = commands.charAt(x);
+            switch (command) {
+                case 'M':
+                    try {
+                        rover.move();
+                        validatePosition();
+                        break;
+                    } catch (ModelException error) {
+                        throw new ServiceException(error.getMessage(), error);
+                    }
+                case 'R':
+                    rover.rotate(90);
+                    break;
+                case 'L':
+                    rover.rotate(-90);
+                    break;
+                default:
+                    throw new ServiceException("The command supplied is invalid. "
+                            + "Please use the following commands: M - Move, R - Rotate Right, L - Rotate Left");
+            }
+        }
+    }
+
     private void validatePosition() throws ServiceException {
-        Coordinate roverPosition = rover.getPosition();
-        if (!zone.isWithinBounds(roverPosition)) {
+        if (!rover.validate(zone)) {
             throw new ServiceException("The rovers current position is currently out of the zone bounds. "
                     + "Zone bounds: "
                     + zone.getCoordinate().toString()
-                    + ". Rover Position: " + roverPosition.toString());
+                    + ". Rover Position: " + rover.getPosition().toString());
         }
     }
 
